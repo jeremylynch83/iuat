@@ -22,7 +22,7 @@ The trial is designed for the clinical question that neurovascular teams face in
 | Design | Multicentre, prospective, randomised, open-label, blinded-endpoint PROBE trial |
 | Population | Adults with unruptured anterior circulation intracranial aneurysms where both modalities are reasonable |
 | Randomisation | 1:1 allocation to clipping or endovascular treatment |
-| Primary endpoint | Hierarchical win-ratio outcome at 12 months: safety, COSMOS, recovery trajectory |
+| Primary endpoint | Patient safety, COSMOS, recovery trajectory |
 | Planned scale | 570–1,000 participants, final sample size to be confirmed with CTU biostatistics |
 | Follow-up | 12-month primary outcome, with extended 2-year and 5-year follow-up for clinical and durability outcomes |
 | Sponsor | Barking, Havering and Redbridge University Hospitals NHS Trust |
@@ -36,9 +36,9 @@ Current practice is still shaped by observational data, local culture and extrap
 
 ## What makes IUAT different
 
-IUAT is not a conventional coiling trial. It compares clipping with the full contemporary endovascular treatment strategy, including conventional coiling, balloon-assisted coiling, stent-assisted coiling, intrasaccular devices and flow diversion where appropriate.
+IUAT compares modern clipping techniques with the full contemporary endovascular treatment strategy, including conventional coiling, balloon-assisted coiling, stent-assisted coiling, intrasaccular devices and flow diversion where appropriate.
 
-It is also not built around mRS alone. Elective aneurysm patients may remain functionally independent by mRS while still experiencing important differences in cognition, fatigue, return to work and participation. IUAT therefore uses a hierarchical win-ratio endpoint that prioritises safety first, then patient-centred function, then recovery.
+It is not built around mRS alone. Elective aneurysm patients may remain functionally independent by mRS while still experiencing important differences in cognition, fatigue, return to work and participation. IUAT therefore prioritises safety first, then patient-centred function, then recovery.
 
 > IUAT is designed to answer the unruptured aneurysm question in the same spirit that ISAT answered the ruptured aneurysm question: a pragmatic, clinically important trial aimed at changing practice.
 
@@ -88,7 +88,7 @@ Systematic reviews continue to confirm the absence of definitive randomised evid
 
 ## The practice variation problem
 
-The protocol documents marked differences in clipping rates, ranging from near-complete endovascular practice in some settings to high clipping rates in others. This degree of variation is difficult to justify as purely evidence-based.
+There are marked regional differences in clipping and coiling rates, ranging from near-complete endovascular practice in some settings to high clipping rates in others. This degree of variation is difficult to justify..
 
 IUAT is designed to replace centre culture with randomised evidence.
 
@@ -109,7 +109,7 @@ This structure makes the trial clinically safer and more interpretable: recovery
 ---
 description: "A summary of the planned IUAT design, randomisation, treatment arms, endpoint hierarchy and follow-up schedule."
 tags: IUAT, trial design, PROBE trial, randomisation, endovascular treatment, surgical clipping
-keywords: "IUAT trial design, PROBE trial, win ratio, surgical clipping, endovascular treatment, randomised aneurysm trial"
+keywords: "IUAT trial design, PROBE trial, surgical clipping, endovascular treatment, randomised aneurysm trial"
 ---
 
 ## Study design
@@ -134,7 +134,7 @@ IUAT is planned as a prospective, multicentre, randomised, open-label, blinded-e
   <div class="flow-step">Consent and randomisation<small>1:1 allocation</small></div>
   <div class="flow-step">Allocated treatment<small>Clipping or contemporary EVT</small></div>
   <div class="flow-step">Blinded adjudication<small>Clinical events and endpoint review</small></div>
-  <div class="flow-step">12-month primary endpoint<small>Hierarchical win ratio</small></div>
+  <div class="flow-step">12-month primary endpoint<small>Composite safety, mRS, COSMOS</small></div>
   <div class="flow-step">2-year clinical outcome<small>Composite secondary endpoint</small></div>
   <div class="flow-step">5-year durability<small>Imaging, retreatment and longer-term outcomes</small></div>
 </div>
@@ -164,20 +164,14 @@ A trial limited to simple coiling would not reflect current practice. IUAT tests
 
 # Outcomes {Design}
 ---
-description: "The planned IUAT primary and secondary outcomes, including the hierarchical win-ratio endpoint and COSMOS patient-centred function."
-tags: IUAT, outcomes, COSMOS, win ratio, mRS, return to work
-keywords: "IUAT outcomes, hierarchical win ratio, COSMOS, mRS ceiling effect, aneurysm trial endpoint"
+description: "The planned IUAT primary and secondary outcomes, including the safety, mRS, and COSMOS patient-centred function."
+tags: IUAT, outcomes, COSMOS, mRS, return to work
+keywords: "IUAT outcomes, COSMOS, mRS ceiling effect, aneurysm trial endpoint"
 ---
 
 ## Primary endpoint
 
-The planned primary endpoint is a hierarchical global rank composite using the win-ratio method. Each comparison is adjudicated sequentially, so safety is always assessed before functional or recovery benefit.
-
-| Tier | Outcome | Timing | Principle |
-|---|---|---|---|
-| Tier 1 | Death or major disabling stroke, mRS ≥3 | By 12 months | Safety has highest priority |
-| Tier 2 | COSMOS score | At 12 months | Captures patient-centred function |
-| Tier 3 | Length of stay, days alive and out of hospital, time to return to work or role | 30 days to 6 months | Captures recovery trajectory |
+The planned primary endpoint is a composite patient-centred score incorporating patient safety, mRS, and patient function (assessed with the COSMOS score). 
 
 ## Why not mRS alone?
 
@@ -321,7 +315,6 @@ keywords: "IUAT leadership, Professor Tufail Patankar, trial governance, DSMB, O
 
 **Professor Tufail Ahmed F.M. Patankar** is the proposed Chief Investigator for IUAT. He is Clinical Director and Interventional Neuroradiologist at Barking, Havering and Redbridge University Hospitals NHS Trust, Professor of Radiology at the University of Bolton and Honorary Professor at the University of Manchester.
 
-The proposal describes extensive aneurysm treatment experience, including contemporary endovascular approaches such as flow diversion, balloon-assisted coiling and intrasaccular devices.
 
 ## Co-investigators
 
