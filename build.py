@@ -976,14 +976,6 @@ def main():
     )
     expected_outputs.add("index.html")
 
-    create_index(
-        feats,
-        template_pre_path='templates/london_pre.html',
-        footer_path='templates/footer.html',
-        out_html='index_london.html',
-        target_tiles=10,
-    )
-    expected_outputs.add("index_london.html")
 
     base_url = BASE_URL
     create_sitemap(base_url)
