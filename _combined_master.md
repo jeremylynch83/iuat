@@ -311,18 +311,18 @@ tags: IUAT, leadership, governance, trial steering committee, DSMB, imaging core
 keywords: "IUAT leadership, Professor Tufail Patankar, trial governance, DSMB, Oxford CTU, BHRUT"
 ---
 
-## Chief Investigator
+## Team
 
-**Professor Tufail Ahmed F.M. Patankar** is the proposed Chief Investigator for IUAT. He is Clinical Director and Interventional Neuroradiologist at Barking, Havering and Redbridge University Hospitals NHS Trust, Professor of Radiology at the University of Bolton and Honorary Professor at the University of Manchester.
+**Professor Tufail Ahmed F.M. Patankar** is the proposed Chief Investigator for IUAT. He is Clinical Director and Consultant Diagnostic and Interventional Neuroradiologist at Barking, Havering and Redbridge University Hospitals NHS Trust, Professor of Radiology at the University of Bolton and Honorary Professor at the University of Manchester. He has extensive experience in complex neurovascular intervention, including aneurysm coiling, flow diversion and intrasaccular technologies.
 
+**Dr Adam Dmytriw**  is an interventional and diagnostic neuroradiologist with a clinical and academic focus in neurointervention, endovascular neurosurgery, cerebrovascular disease, neuroimmunology and multicentre clinical research. He trained in medicine at Dalhousie University, completed postgraduate study at the University of Oxford and Harvard University, and undertook neuroradiology and neurointervention work across the University of Toronto, Brigham and Women’s Hospital, Massachusetts General Hospital and Harvard Medical School.
 
-## Co-investigators
+**Dr Jeremy Lynch** is a London-based Consultant Interventional Neuroradiologist at King’s College Hospital NHS Foundation Trust and Barking, Havering and Redbridge University Hospitals NHS Trust. He graduated in medicine from the University of Bristol in 2007, completed surgical training with Membership of the Royal College of Surgeons, and specialised in interventional radiology and neuroradiology at leading London centres before undertaking an international fellowship in Toronto, where he gained early experience in robotic endovascular techniques.
 
-The current proposal identifies:
+**Professor Andrew Molyneux** is a consultant neuroradiologist and senior clinical research fellow at the University of Oxford, and was Co-Principal Investigator of the landmark International Subarachnoid Aneurysm Trial (ISAT). ISAT transformed the management of ruptured intracranial aneurysms by establishing the role of endovascular coiling in appropriate patients, with major results published in *The Lancet* in 2002 and 2005.
 
-- Dr Adam Dmytriw, Co-PI
-- Dr Jeremy Lynch, Co-PI
-- a high-volume cerebrovascular neurosurgical co-chief investigator, in development
+**A high-volume cerebrovascular neurosurgical Co-Chief Investigator** is in development. This role is intended to provide senior neurosurgical leadership, high-volume operative cerebrovascular expertise and balance across endovascular and microsurgical perspectives within the IUAT investigator group.
+
 
 ## Sponsor and trial delivery
 
