@@ -421,7 +421,7 @@ Please include:
 <div class="callout my-4">
   <h2 class="h3 mb-3">Email the IUAT team</h2>
   <p>Replace the draft email address before publishing this site.</p>
-  <a class="btn-iuat-secondary" href="mailto:iuat.trial@example.org?subject=IUAT%20site%20interest&body=Name:%0ARole/specialty:%0AInstitution/country:%0AContact%20email:%0AClipping%20available:%0AEVT%20available:%0AEstimated%20annual%20eligible%20UIA%20volume:%0AMDT%20review:%0AComments:">Register interest by email</a>
+  <a class="btn-iuat-secondary" href="mailto:jeremy.lynch@gmail.com?subject=IUAT%20site%20interest&body=Name:%0ARole/specialty:%0AInstitution/country:%0AContact%20email:%0AClipping%20available:%0AEVT%20available:%0AEstimated%20annual%20eligible%20UIA%20volume:%0AMDT%20review:%0AComments:">Register interest by email</a>
 </div>
 
 ## Important note
