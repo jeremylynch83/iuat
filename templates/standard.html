@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>$title$ | IUAT | International Unruptured Aneurysm Trial</title>
+    $if(description)$<meta name="description" content="$description$" />$endif$
+    $if(keywords)$<meta name="keywords" content="$keywords$" />$endif$
+    <meta name="author" content="IUAT Trial Group" />
+    <meta name="robots" content="index, follow" />
+    <meta name="format-detection" content="telephone=no" />
+    $if(canonical)$<link rel="canonical" href="$canonical$" />$endif$
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:site_name" content="IUAT" />
+    <meta property="og:type" content="$if(og_type)$$og_type$$else$article$endif$" />
+    <meta property="og:title" content="$title$ | IUAT" />
+    $if(description)$<meta property="og:description" content="$description$" />$endif$
+    $if(image)$<meta property="og:image" content="$image$" />$endif$
+    $if(canonical)$<meta property="og:url" content="$canonical$" />$endif$
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="$title$ | IUAT" />
+    $if(description)$<meta name="twitter:description" content="$description$" />$endif$
+    $if(image)$<meta name="twitter:image" content="$image$" />$endif$
+    <link rel="icon" href="img/favicon.ico" sizes="any">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="preconnect" href="https://cdn.jsdelivr.net">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "$if(schema_type)$$schema_type$$else$MedicalStudy$endif$",
+        "name": "$title$",
+        "headline": "$title$",
+        $if(description)$"description": "$description$",$endif$
+        $if(canonical)$"url": "$canonical$",$endif$
+        "inLanguage": "en-GB",
+        "publisher": {"@type": "Organization", "name": "IUAT Trial Group"},
+        "medicalSpecialty": ["Neurosurgery", "Interventional Neuroradiology", "Neurology"]
+      }
+    </script>
+  </head>
+  <body class="article-page">
+    <header class="site-header">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img src="img/iuat-logo.png" alt="IUAT logo" width="140" height="140">
+            <span class="brand-wordmark">IUAT<small>International Unruptured Aneurysm Trial</small></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto align-items-lg-center">
+              <li class="nav-item"><a class="nav-link" href="Trial_Overview.html">Overview</a></li>
+              <li class="nav-item"><a class="nav-link" href="Trial_Why_IUAT.html">Why IUAT?</a></li>
+              <li class="nav-item"><a class="nav-link" href="Design_Trial_design.html">Design</a></li>
+              <li class="nav-item"><a class="nav-link" href="Sites_For_physicians_and_sites.html">For sites</a></li>
+              <li class="nav-item"><a class="nav-link" href="Team_Leadership_and_governance.html">Team</a></li>
+              <li class="nav-item ms-lg-2"><a class="btn-iuat-primary" href="Contact_Register_interest.html">Register interest</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="container py-5">
+        <div class="row g-4">
+          <div class="col-12 $if(links)$col-lg-8$endif$">
+            $body$
+            $if(next)$
+            <p class="text-center"><a href="$next.url$" class="next-link">Next: $next.text$</a></p>
+            $endif$
+          </div>
+          $if(links)$
+          <aside class="col-lg-4 related">
+            <div class="sticky-sidebar">
+              <h4 class="h6 text-uppercase text-muted mb-3">In this section</h4>
+              <ul class="list-group list-group-flush text-center">
+                $for(links)$
+                <li class="list-group-item px-0">
+                  $if(links.current)$<span class="fw-semibold d-inline-block">$links.text$</span>$else$<a href="$links.url$" class="text-decoration-none d-inline-block">$links.text$</a>$endif$
+                </li>
+                $endfor$
+              </ul>
+            </div>
+          </aside>
+          $endif$
+        </div>
+      </section>
+    </main>
+    $for(include-after)$ $include-after$ $endfor$
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/menu.js"></script>
+  </body>
+</html>
