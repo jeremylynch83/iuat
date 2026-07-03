@@ -433,3 +433,53 @@ img { max-width: 100%; height: auto; }
   background: #f0f6fb;
   color: var(--iuat-navy) !important;
 }
+
+
+/* Responsive fixes for medium widths: keep the header from crowding and keep CTA buttons readable. */
+@media (max-width: 1199.98px) {
+  .navbar-collapse {
+    padding: 1rem 0 1.25rem;
+    border-top: 1px solid var(--iuat-line);
+  }
+  .navbar-nav { gap: .35rem; }
+  .navbar-nav .btn-iuat-primary {
+    width: fit-content;
+    margin-top: .5rem;
+  }
+  .callout .row > [class*="col-lg-"] {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .callout .text-lg-end {
+    text-align: left !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: .75rem;
+    align-items: center;
+  }
+  .callout .text-lg-end .btn-iuat-secondary {
+    margin: 0 !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .callout .text-lg-end {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: .75rem;
+  }
+  .callout .text-lg-end .btn-iuat-secondary {
+    margin: 0 !important;
+    min-width: 176px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .navbar-brand img { width: 112px; }
+  .brand-wordmark { display: none; }
+  .callout .text-lg-end .btn-iuat-secondary,
+  .navbar-nav .btn-iuat-primary {
+    width: 100%;
+  }
+}
